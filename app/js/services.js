@@ -2,7 +2,11 @@
 
 angular.module('InfotecApp.services', [])
   .factory('trackService', ['$http',function($http) {
-    return {
+    
+		//Both of these service functions are called from the controllers.
+		//The pull data from a URL and return it to the controller to use.
+		
+		return {
 			
 			getTracks: function(){
 				var url = "https://event.crowdcompass.com/e/zQCMTRgHzA/query/v_activity_tracks?query[orderBy][]=sequence_number&query[orderBy][]=track_name&query[includeOnlyColumns][track_name]=track_name&query[includeOnlyColumns][track_oid]=track_oid";

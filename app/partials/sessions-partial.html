@@ -3,5 +3,6 @@
     <input type="search" placeholder="Search Title, Description, Speaker" ng-model="searchPhrase">
   </form>
   <ul class="table-view">
+  	<!-- This is our <session-info> directive. It's our own custom HTML defined in another partial -->
     <session-info  ng-repeat="session in sessions | filter:searchPhrase"></session-info>
   </ul>
