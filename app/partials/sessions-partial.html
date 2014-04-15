@@ -1,0 +1,7 @@
+  <h3>Track Details</h3>
+  <form>
+    <input type="search" placeholder="Search Title, Description, Speaker" ng-model="searchPhrase">
+  </form>
+  <ul class="table-view">
+    <session-info  ng-repeat="session in sessions | filter:searchPhrase"></session-info>
+  </ul>

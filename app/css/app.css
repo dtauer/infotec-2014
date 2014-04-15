@@ -1,0 +1,14 @@
+.bar~.content {
+	padding-top: 100px;
+}
+
+.content {
+	background: rgb(244, 244, 244);
+}
+
+.bar-header-secondary {
+	background: rgb(0, 134, 179);
+	color: rgb(255,255,255);
+	text-align:center;
+	padding-top: 10px;
+}
