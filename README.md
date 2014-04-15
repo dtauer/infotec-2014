@@ -1,7 +1,7 @@
 infotec-2014
 ============
 
-Resources and an AngularJS application accompanying my Infotec 2014 presentation on JavaScript Frameworks
+Resources and an AngularJS application accompanying my Infotec 2014 presentation on JavaScript Frameworks. If you're new to GitHub, click the "Download ZIP" button on the right to download all the files.
 
 ###Demo Application
 
